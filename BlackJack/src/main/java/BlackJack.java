@@ -1,7 +1,7 @@
 import java.util.*;
 public class BlackJack
 {
-    public static List<String> ReturnCardList=new ArrayList<String>();
+    public static List<String> ReturnCardList= new ArrayList<>();
     public static char option1 ='y',option2='y';
     public static boolean start=true,DealerTrigger=true;
     public static int UpdatedTotal=0,PlayerTotal=0,DealerTotal=0;
@@ -72,6 +72,9 @@ public class BlackJack
                 else if(DealerTotal < PlayerTotal && PlayerTotal > 21)
                 {
                     System.out.println("Dealer is BlackJack!You Lose");
+                } else if (DealerTotal == PlayerTotal)
+                {
+                    System.out.println("Dealer "+DealerTotal+" You "+PlayerTotal+"!Draw.");
                 }
             }
             System.out.println("Do you want to Play Again y/n");
@@ -128,10 +131,6 @@ class Cards extends decks
         System.out.println("");
         System.out.println("The Total Points are:"+total);
         return NewCardList;
-    }
-    public void SetTotal(int total)
-    {
-        this.total=total;
     }
     public int GetCardsTotal()
     {
