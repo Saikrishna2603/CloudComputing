@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eccc80c1-553c-4be3-90ee-648ced3cb93b" name="Changes" comment="Adding Changes in BlackJack Class" />
+    <list default="true" id="eccc80c1-553c-4be3-90ee-648ced3cb93b" name="Changes" comment="Adding Changes in BlackJack Class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BlackJackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlackJackTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,9 +90,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BlackJack">
+  <component name="RunManager" selected="Application.BlackJackTest">
     <configuration name="BlackJack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BlackJack" />
+      <module name="BlackJack" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlackJackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BlackJackTest" />
       <module name="BlackJack" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,10 +114,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BlackJackTest.testmain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlackJack" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BlackJackTest" />
+      <option name="METHOD_NAME" value="testmain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BlackJack" />
+        <item itemvalue="Application.BlackJackTest" />
+        <item itemvalue="JUnit.BlackJackTest.testmain" />
         <item itemvalue="JUnit.BlackJackTest" />
+        <item itemvalue="Application.BlackJack" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674330306292</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding Changes in BlackJack Class">
+      <created>1674330359962</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674330359962</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +223,19 @@
     <MESSAGE value="Adding Changes in BlackJack Class" />
     <option name="LAST_COMMIT_MESSAGE" value="Adding Changes in BlackJack Class" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BlackJack.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BlackJack$BlackJackTest_testmain.ic" NAME="BlackJackTest.testmain Coverage Results" MODIFIED="1674344497889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/BlackJack$BlackJackTest.ic" NAME="BlackJackTest Coverage Results" MODIFIED="1674107447712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/BlackJack$BlackJack.ic" NAME="BlackJack Coverage Results" MODIFIED="1674106428950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
