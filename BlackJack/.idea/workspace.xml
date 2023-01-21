@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eccc80c1-553c-4be3-90ee-648ced3cb93b" name="Changes" comment="Adding BlackJack Project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BlackJack.java" afterDir="false" />
-    </list>
+    <list default="true" id="eccc80c1-553c-4be3-90ee-648ced3cb93b" name="Changes" comment="Adding Changes in BlackJack Class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +19,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="origin/Java" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="main" />
@@ -117,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674106909336</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding Changes in BlackJack Class">
+      <created>1674266782640</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674266782641</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,7 +148,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Python" />
+                        <option value="origin/Java" />
                       </list>
                     </value>
                   </entry>
@@ -142,10 +159,26 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/Java" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding BlackJack Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding BlackJack Project" />
+    <MESSAGE value="Adding Changes in BlackJack Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Changes in BlackJack Class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BlackJack$BlackJackTest.ic" NAME="BlackJackTest Coverage Results" MODIFIED="1674107447712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
