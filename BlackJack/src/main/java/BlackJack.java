@@ -1,8 +1,7 @@
 import java.util.*;
 public class BlackJack
 {
-    public static List<String> ReturnCardList= new ArrayList<>();
-    public static char option1 ='y',option2='y';
+    public static List<String> ReturnCardList= new ArrayList<>();    public static char option1 ='y',option2='y';
     public static boolean start=true,DealerTrigger=true;
     public static int UpdatedTotal=0,PlayerTotal=0,DealerTotal=0;
     public static void main(String[] args)
