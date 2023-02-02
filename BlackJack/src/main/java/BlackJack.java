@@ -1,7 +1,8 @@
 import java.util.*;
 public class BlackJack
 {
-    public static List<String> ReturnCardList= new ArrayList<>();    public static char option1 ='y',option2='y';
+    public static List<String> ReturnCardList= new ArrayList<>();
+    public static char option1 ='y',option2='y';
     public static boolean start=true,DealerTrigger=true;
     public static int UpdatedTotal=0,PlayerTotal=0,DealerTotal=0;
     public static void main(String[] args)
@@ -32,7 +33,7 @@ public class BlackJack
                 }
             }while(option2 == 'y');
 
-            if(option2 == 'n' && DealerTrigger == true)
+            if(option2 == 'n' && DealerTrigger)
             {
                 PlayerTotal=UpdatedTotal;
                 start=true;
@@ -110,7 +111,7 @@ class Cards extends decks
             for(int i=0;i<2;i++)
             {
                 int index=r.nextInt(CardList.size());
-                card=(String) CardList.get(index);
+                card= CardList.get(index);
                 gettotal(card);
                 NewCardList.add(card);
             }
@@ -118,7 +119,7 @@ class Cards extends decks
         else if(!start)
         {
             int index=r.nextInt(CardList.size());
-            card=(String) CardList.get(index);
+            card= CardList.get(index);
             NewCardList.add(card);
             gettotal(card);
         }
@@ -127,7 +128,7 @@ class Cards extends decks
         {
             System.out.println(NewCardList.get(i));
         }
-        System.out.println("");
+        System.out.println();
         System.out.println("The Total Points are:"+total);
         return NewCardList;
     }
@@ -161,8 +162,8 @@ class Cards extends decks
 }
 class decks
 {
-    public String ranks[] = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King","Ace"};
-    public String suits[]={"Clubs","Hearts","Spades","Diamonds"};
+    public String[] ranks = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King","Ace"};
+    public String[] suits ={"Clubs","Hearts","Spades","Diamonds"};
     public ArrayList<String> DecksofCards=new ArrayList<String>();
     public void shuffle()
     {
