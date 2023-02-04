@@ -1,7 +1,8 @@
-print("""This Find Simple Interest application will ask user to specify
-the amount of a loan, an interest rate, and the number of years.
-The application calculates and display the simple interest for the
-given loan at the specified interest for a specified number of years.\n""")
+print("""This Find Interest application will ask user to specify the amount of 
+a loan, an interest rate, and the number of years.
+The application calculates and display the simple and compounded interests 
+for the given loan at the specified interest rate for a specified number 
+of years.\n""")
 choice = "y"
 while choice.lower() == "y":
     while True:
